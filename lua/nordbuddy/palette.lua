@@ -15,10 +15,10 @@ return {
     bright_white = '#f8f8f8',
 
     -- Frost
-    cyan = '#8fbcbb', -- classes, types and primitives.
-    bright_cyan = '#88c0d0', -- declarations, calls and execution statements of functions, methods and routines.
-    blue = '#2eb5c1', -- keywords, support characters, operators, tags, units, punctuations
-    intense_blue = '#1eabe3', -- pragmas, comment keywords and pre-processor statements.
+    cyan = '#218693', -- classes, types and primitives.
+    bright_cyan = '#77dfd8', -- declarations, calls and execution statements of functions, methods and routines.
+    blue = '#4e90a7', -- keywords, support characters, operators, tags, units, punctuations
+    intense_blue = '#9cd9f0', -- pragmas, comment keywords and pre-processor statements.
 
     -- Aurora
     red = '#fab1ab', -- deletions and errors
