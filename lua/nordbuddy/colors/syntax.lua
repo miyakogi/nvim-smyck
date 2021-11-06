@@ -183,7 +183,7 @@ return function(c, s, cs)
     {fields, c.blue, c.none},
     {functions, c.dark_white, c.none, cs.italic},
     {includes, c.intense_blue},
-    {keywords, c.blue, c.none, s.none},
+    {keywords, c.cyan, c.none, s.none},
     {labels, c.intense_blue, c.none, cs.italic},
     {namespaces, c.dark_white, c.none, cs.italic},
     {nones, c.dark_white},

@@ -2,7 +2,7 @@ return {
     -- Polar Night
     dark_black = '#181818', -- bg
     black = '#282828',
-    bright_black = '#434c5e',
+    bright_black = '#8d8d8d',
     gray = '#4c566a',
 
     -- Custom
@@ -10,9 +10,9 @@ return {
     grayish = '#667084',
 
     -- Snow Storm
-    dark_white = '#f7f7f7',
-    white = '#fafafa',
-    bright_white = '#ffffff',
+    dark_white = '#b0b0b0',
+    white = '#f7f7f7',
+    bright_white = '#f8f8f8',
 
     -- Frost
     cyan = '#8fbcbb', -- classes, types and primitives.
