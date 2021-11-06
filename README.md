@@ -1,4 +1,7 @@
-# Nordbuddy
+# nvim-smyck
+The minimal effort alternative for updating my favorite colorscheme [smyck](https://github.com/brendonrapp/smyck-vim) to work with othe polugins.
+
+#Nordbuddy
 
 A [nord](https://www.nordtheme.com/)-esque colorscheme.
 
