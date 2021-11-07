@@ -1,2 +1,2 @@
-local nvim-smyck = require('nvim-smyck')
-nvim-smyck.colorscheme({})
+local nvim_smyck = require("nvim-smyck")
+nvim_smyck.colorscheme({})
