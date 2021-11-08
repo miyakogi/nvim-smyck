@@ -9,8 +9,6 @@ Nordbuddy supports highlighting for [Treesitter](https://github.com/nvim-treesit
 [Neovim LSP](https://neovim.io/doc/user/lsp.html), [Telescope](https://github.com/nvim-telescope/telescope.nvim/),
 and [much more](https://github.com/maaslalani/nordbuddy/tree/main/lua/nordbuddy/colors).
 
-![Color Preview](https://user-images.githubusercontent.com/42545625/112913430-935a6a80-90c7-11eb-867e-394b1790a14f.png)
-
 ## Requirements
 
 * Neovim 0.5+

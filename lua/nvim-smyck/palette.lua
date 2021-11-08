@@ -11,13 +11,13 @@ return {
 
     -- Snow Storm
     dark_white = '#b0b0b0',
-    white = '#f7f7f7',
+    white = '#e7e7e7',
     bright_white = '#f8f8f8',
 
     -- Frost
-    cyan = '#218693', -- classes, types and primitives.
+    cyan = '#6af2f0', -- classes, types and primitives.
     bright_cyan = '#77dfd8', -- declarations, calls and execution statements of functions, methods and routines.
-    blue = '#4e90a7', -- keywords, support characters, operators, tags, units, punctuations
+    blue = '#72b3cc', -- keywords, support characters, operators, tags, units, punctuations
     intense_blue = '#9cd9f0', -- pragmas, comment keywords and pre-processor statements.
 
     -- Aurora
