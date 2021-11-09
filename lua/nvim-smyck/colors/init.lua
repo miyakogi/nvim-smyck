@@ -11,6 +11,7 @@ local colors = {
     'markdown',
     'neogit',
     'neorg',
+    'puppet',
     'standard',
     'symbols_outline',
     'syntax',

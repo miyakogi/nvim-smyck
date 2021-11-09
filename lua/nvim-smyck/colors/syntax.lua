@@ -140,11 +140,13 @@ return function(c, s, cs)
     'pythonclass', -- python
     'vimlet' -- vim
   }
+  local identifiers = {
+    'Identifier', -- VL
+    'rustIdentifier', -- rust
+  }
   local variables = {
     'TSVariable', -- TS
-    'Identifier', -- VL
     'pythonselfarg', -- python
-    'rustIdentifier', -- rust
     'vimmapmodkey', 'vimnotation', 'vimfuncvar', 'vimvar', -- vim
     'shDerefSimple', 'shDerefVar' -- sh
   }
@@ -199,6 +201,7 @@ return function(c, s, cs)
     {texts, c.white},
     {uris, c.purple},
     {types, c.cyan},
+    {identifiers, c.blue},
     {variables, c.white},
     {builtins, c.bright_cyan, c.none, cs.italic},
     {notes, c.orange},
