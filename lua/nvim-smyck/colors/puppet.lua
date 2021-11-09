@@ -13,7 +13,7 @@ return function(c)
     {'puppetTodo', c.blue},
     {'puppetControl', c.green},
     {'puppetDefType', c.green},
-    {'puppetDefName', c.cyan},
+    {'puppetDefName', c.bright_cyan},
     {'puppetNodeRe', c.blue},
     {'puppetTypeName', c.green},
     {'puppetTypeDefault', c.green},
