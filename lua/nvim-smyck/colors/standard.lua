@@ -43,7 +43,7 @@ return function(c, s, cs, opts)
         {'Directory', c.bright_cyan},
         --- Prompt/Status ---
         {'EndOfBuffer', c.black},
-        {'ErrorMsg', c.dark_white, c.red},
+        {'ErrorMsg', c.black, c.red},
         {'ModeMsg', c.dark_white},
         {'MoreMsg', c.bright_cyan},
         {'Question', c.dark_white},
