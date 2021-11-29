@@ -17,7 +17,7 @@ return {
     -- Frost
     cyan = '#218693', -- classes, types and primitives.
     bright_cyan = '#77dfd8', -- declarations, calls and execution statements of functions, methods and routines.
-    blue = '#72b3cc', -- keywords, support characters, operators, tags, units, punctuations
+    blue = '#569cd6', -- keywords, support characters, operators, tags, units, punctuations
     intense_blue = '#9cd9f0', -- pragmas, comment keywords and pre-processor statements.
 
     -- Aurora
@@ -25,5 +25,5 @@ return {
     orange = '#d08770', -- annotations and decorators
     yellow = '#f6dc69', -- modifications, warning and escape characters
     green = '#d1fa71', -- additions and string
-    purple = '#b48ead' -- integers and floating point numbers
+    purple = '#c586c0' -- integers and floating point numbers
 }
