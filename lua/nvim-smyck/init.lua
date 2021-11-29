@@ -37,7 +37,7 @@ local function create_arguments(options)
     local cs = {
         underline = options.underline_option and s[options.underline_option] or s.none,
         italic = (options.italic == true or options.italic == nil) and s.italic or s.none,
-        comments = options.italic_comments and s.italic or s.none
+        comments = options.italic_comments and s.italic or s.none,
     }
 
     return {palette, s, cs, options}
