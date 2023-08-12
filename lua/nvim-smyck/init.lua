@@ -64,11 +64,11 @@ local function initialize(config)
             -- a regular color group:
             --  {'a', 'bg', 'fg', 'font'}
             else
-                vim.highlight.create(group[1], {
-                    guifg = group[2] or 'NONE',
-                    guibg = group[3] or 'NONE',
-                    gui = group[4] or 'NONE',
-                })
+                local gfg = group[2] or 'NONE'
+                local gbg = group[3] or 'NONE'
+                local gui = group[4] or 'NONE'
+                local hl = { group[1], 'guifg=' .. gfg, 'guibg=' .. gbg, 'gui=' .. gui }
+                vim.cmd.highlight(hl)
             end
         end
     end
