@@ -11,7 +11,7 @@ and [much more](https://github.com/maaslalani/nordbuddy/tree/main/lua/nordbuddy/
 
 ## Requirements
 
-* Neovim 0.5+
+* Neovim 0.8+
 
 ## Usage
 
@@ -25,11 +25,11 @@ to install, enable and configure this colorscheme:
 
 ``` lua
 use {
-    'maaslalani/nordbuddy',
+    'miyakogi/nvim-smyck',
     config = function()
         -- The table used in this example contains the default settings.
         -- Modify or remove these to your liking:
-        require('nordbuddy').colorscheme({
+        require('nvim-smyck').colorscheme({
             -- Underline style used for spelling
             -- Options: 'none', 'underline', 'undercurl'
             underline_option = 'none',
@@ -48,20 +48,12 @@ use {
 }
 ```
 
-### Alternatives
-
-For example [`vim-plug`](https://github.com/junegunn/vim-plug):
-
-```vim
-Plug 'maaslalani/nordbuddy'
-```
-
 #### Using Lua
 
-Via the nordbuddy module:
+Via the nvim-smyck module:
 
 ``` lua
-require('nordbuddy').colorscheme({
+require('nvim-smyck').colorscheme({
     underline_option = 'none',
     italic = true,
     italic_comments = false,
